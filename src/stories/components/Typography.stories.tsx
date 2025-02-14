@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Typography, TypographyVariantsProps } from '../../components/Typography'
+import { Typography, TypographyVariantsProps } from './Typography'
 
 export default {
   title: 'Components/Typography',

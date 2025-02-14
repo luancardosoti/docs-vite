@@ -19,9 +19,9 @@ const config: StorybookConfig = {
   async viteFinal(config, { configType }) {
     const { mergeConfig } = await import('vite');
 
-    if (configType === 'PRODUCTION') {
-      config.base = '/docs-vite/'
-    }
+    // if (configType === 'PRODUCTION') {
+    //   config.base = '/docs-vite/'
+    // }
 
     return mergeConfig(config, {})
   },
